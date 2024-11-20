@@ -36,3 +36,36 @@ button {
 button:hover {
   background-color: #21a1f1;
 }
+
+footer {
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.social-media {
+  text-align: center; /* Center the content */
+  background-color: #2d2d2d; /* Optional: Dark background to match the design */
+  padding: 20px;
+}
+
+.social-media p {
+  color: #fff; /* Make text white for contrast */
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.social-icon {
+  width: 100px; /* Set uniform width */
+  height: 100px; /* Set uniform height */
+  margin: 0 10px; /* Add spacing between images */
+  object-fit: cover; /* Ensures the image fills the set dimensions without distortion */
+  border-radius: 10px; /* Optional: Rounded corners for the images */
+  transition: transform 0.3s; /* Add a hover effect */
+}
+
+.social-icon:hover {
+  transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
